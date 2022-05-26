@@ -1,0 +1,145 @@
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__home {
+    display: none;
+}
+.menu__home i {
+    font-size: 2.8rem;
+}
+.menu-close {
+    display: none;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.menu-close i {
+    font-size: 1.8rem;
+    color: #FFF;
+}
+.navbar {
+    min-width: 150px;
+    background: #191718;
+}
+
+.navbar__list-item {
+    font-size: 1.5rem;
+    line-height: 19px;
+    text-align: left;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    border-bottom: 1px solid #333131;
+
+}
+
+.navbar__item-link {
+    color: #fff;
+    padding-left: 10px;
+    display: block;
+    height: inherit;
+    line-height: 41px;
+    font-weight: 400;
+}
+.navbar__item-link:hover {
+    background-color:#5C5C5C;
+}
+.container__company {
+    height: 104px;
+    width: 224px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.container__company-logo {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container__infor {
+    background-color: #EFEFEF;
+    width: 1269px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 37px;
+    text-align: center;
+    padding: 22px 100px;
+}
+
+.container__infor-tilte {
+
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.container__infor-text {
+
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.container__list {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 0px 50px;
+}
+
+.container__list-item {
+    width: calc((100% - 30px) / 3);
+}
+
+.container__item-title {
+
+    font-size: 1.6rem;
+}
+
+.container__item-child {
+
+    display: flex;
+}
+
+.container__item-child>img {
+    max-width: 128px;
+    max-height: 128px;
+}
+
+.container__item-child>p {
+
+    font-size: 1.5rem;
+    line-height: 18.75px;
+    margin: 0;
+}
+
+.container__item-text {
+
+    font-size: 1.5rem;
+    margin-top: 0;
+    line-height: 18.75px;
+}
+
+.footer {
+
+    height: 55px;
+    line-height: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.footer__infor {
+
+    padding-left: 120px;
+    margin: 0;
+    height: 100%;
+}
+
+.footer__infor p {
+
+    font-size: 1.6rem;
+    margin: 0;
+    height: 100%;
+    line-height: 53px;
+}
